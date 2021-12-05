@@ -1,0 +1,263 @@
+ERROR:suds.client:<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices">
+   <soapenv:Header>
+      <rep:ExecutionHeader>
+         <rep:ExecutionID>ynl4zy45zm5altjy1hfads55</rep:ExecutionID>
+      </rep:ExecutionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <rep:Render>
+         <rep:Format>PDF</rep:Format>
+      </rep:Render>
+   </soapenv:Body>
+</soapenv:Envelope>
+ERROR:root:Could not Render the Report: This report requires a default or user-defined value for the report parameter 'FACILITY'. To run or subscribe to this report, you must provide a parameter value. ---> Microsoft.ReportingServices.Diagnostics.Utilities.ReportParameterValueNotSetException: This report requires a default or user-defined value for the report parameter 'FACILITY'. To run or subscribe to this report, you must provide a parameter value.
+ERROR:root:Format is not valid: xlxs
+ERROR:root:Format is not valid: xlsx
+ERROR:root:Format is not valid: XLSX
+ERROR:root:Format is not valid: xlsx
+ERROR:root:Format is not valid: xls
+ERROR:root:Format is not valid: XLS
+ERROR:suds.client:<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices">
+   <soapenv:Header>
+      <rep:ExecutionHeader>
+         <rep:ExecutionID>lqwwiu55krrwrpmkjlswuc2s</rep:ExecutionID>
+      </rep:ExecutionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <rep:SetExecutionParameters>
+         <rep:Parameters>
+            <rep:ParameterValue>
+               <rep:Name>FACILITY</rep:Name>
+               <rep:Value>101</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>STARTDATE</rep:Name>
+               <rep:Value>01/01/2021</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>ENDDATE</rep:Name>
+               <rep:Value>31/01/2021</rep:Value>
+            </rep:ParameterValue>
+         </rep:Parameters>
+         <rep:ParameterLanguage>en-US</rep:ParameterLanguage>
+      </rep:SetExecutionParameters>
+   </soapenv:Body>
+</soapenv:Envelope>
+ERROR:root:Could not Send Parameters: The value provided for the report parameter 'ENDDATE' is not valid for its type. ---> Microsoft.ReportingServices.Diagnostics.Utilities.ReportParameterTypeMismatchException: The value provided for the report parameter 'ENDDATE' is not valid for its type.
+ERROR:suds.client:<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices">
+   <soapenv:Header>
+      <rep:ExecutionHeader>
+         <rep:ExecutionID>gr2mfxuk4401vljfq3rc1e55</rep:ExecutionID>
+      </rep:ExecutionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <rep:SetExecutionParameters>
+         <rep:Parameters>
+            <rep:ParameterValue>
+               <rep:Name>FACILITY</rep:Name>
+               <rep:Value>102</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>STARTDATE</rep:Name>
+               <rep:Value>01/01/2021</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>ENDDATE</rep:Name>
+               <rep:Value>28/02/2021</rep:Value>
+            </rep:ParameterValue>
+         </rep:Parameters>
+         <rep:ParameterLanguage>en-US</rep:ParameterLanguage>
+      </rep:SetExecutionParameters>
+   </soapenv:Body>
+</soapenv:Envelope>
+ERROR:root:Could not Send Parameters: The value provided for the report parameter 'ENDDATE' is not valid for its type. ---> Microsoft.ReportingServices.Diagnostics.Utilities.ReportParameterTypeMismatchException: The value provided for the report parameter 'ENDDATE' is not valid for its type.
+ERROR:suds.client:<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices">
+   <soapenv:Header>
+      <rep:ExecutionHeader>
+         <rep:ExecutionID>ktjuzjrugy4bjw55fwzgz445</rep:ExecutionID>
+      </rep:ExecutionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <rep:Render>
+         <rep:Format>CSV</rep:Format>
+      </rep:Render>
+   </soapenv:Body>
+</soapenv:Envelope>
+ERROR:root:Could not Render the Report: This report requires a default or user-defined value for the report parameter 'FACILITY'. To run or subscribe to this report, you must provide a parameter value. ---> Microsoft.ReportingServices.Diagnostics.Utilities.ReportParameterValueNotSetException: This report requires a default or user-defined value for the report parameter 'FACILITY'. To run or subscribe to this report, you must provide a parameter value.
+ERROR:suds.client:<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices">
+   <soapenv:Header>
+      <rep:ExecutionHeader>
+         <rep:ExecutionID>dmgkbg550gkhzin2xgv55155</rep:ExecutionID>
+      </rep:ExecutionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <rep:SetExecutionParameters>
+         <rep:Parameters>
+            <rep:ParameterValue>
+               <rep:Name>FACILITY</rep:Name>
+               <rep:Value>101</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>STARTDATE</rep:Name>
+               <rep:Value>01/01/2021</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>ENDDATE</rep:Name>
+               <rep:Value>31/01/2021</rep:Value>
+            </rep:ParameterValue>
+         </rep:Parameters>
+         <rep:ParameterLanguage>en-US</rep:ParameterLanguage>
+      </rep:SetExecutionParameters>
+   </soapenv:Body>
+</soapenv:Envelope>
+ERROR:root:Could not Send Parameters: The value provided for the report parameter 'ENDDATE' is not valid for its type. ---> Microsoft.ReportingServices.Diagnostics.Utilities.ReportParameterTypeMismatchException: The value provided for the report parameter 'ENDDATE' is not valid for its type.
+ERROR:suds.client:<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices">
+   <soapenv:Header>
+      <rep:ExecutionHeader>
+         <rep:ExecutionID>x1j1xn4513xo12in43qsrfjf</rep:ExecutionID>
+      </rep:ExecutionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <rep:SetExecutionParameters>
+         <rep:Parameters>
+            <rep:ParameterValue>
+               <rep:Name>FACILITY</rep:Name>
+               <rep:Value>101</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>STARTDATE</rep:Name>
+               <rep:Value>01/01/2021</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>ENDDATE</rep:Name>
+               <rep:Value>31/01/2021</rep:Value>
+            </rep:ParameterValue>
+         </rep:Parameters>
+         <rep:ParameterLanguage>en-US</rep:ParameterLanguage>
+      </rep:SetExecutionParameters>
+   </soapenv:Body>
+</soapenv:Envelope>
+ERROR:root:Could not Send Parameters: The value provided for the report parameter 'ENDDATE' is not valid for its type. ---> Microsoft.ReportingServices.Diagnostics.Utilities.ReportParameterTypeMismatchException: The value provided for the report parameter 'ENDDATE' is not valid for its type.
+ERROR:suds.client:<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices">
+   <soapenv:Header>
+      <rep:ExecutionHeader>
+         <rep:ExecutionID>vpzunvizjwm2ftyflkuxkx55</rep:ExecutionID>
+      </rep:ExecutionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <rep:SetExecutionParameters>
+         <rep:Parameters>
+            <rep:ParameterValue>
+               <rep:Name>FACILITY</rep:Name>
+               <rep:Value>101</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>STARTDATE</rep:Name>
+               <rep:Value>01/01/2021</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>ENDDATE</rep:Name>
+               <rep:Value>31/01/2021</rep:Value>
+            </rep:ParameterValue>
+         </rep:Parameters>
+         <rep:ParameterLanguage>en-US</rep:ParameterLanguage>
+      </rep:SetExecutionParameters>
+   </soapenv:Body>
+</soapenv:Envelope>
+ERROR:root:Could not Send Parameters: The value provided for the report parameter 'ENDDATE' is not valid for its type. ---> Microsoft.ReportingServices.Diagnostics.Utilities.ReportParameterTypeMismatchException: The value provided for the report parameter 'ENDDATE' is not valid for its type.
+ERROR:suds.client:<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices">
+   <soapenv:Header>
+      <rep:ExecutionHeader>
+         <rep:ExecutionID>auea2um5jmpmo5axu4zogxip</rep:ExecutionID>
+      </rep:ExecutionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <rep:SetExecutionParameters>
+         <rep:Parameters>
+            <rep:ParameterValue>
+               <rep:Name>FACILITY</rep:Name>
+               <rep:Value>101</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>STARTDATE</rep:Name>
+               <rep:Value>01/01/2021</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>ENDDATE</rep:Name>
+               <rep:Value>31/01/2021</rep:Value>
+            </rep:ParameterValue>
+         </rep:Parameters>
+         <rep:ParameterLanguage>en-US</rep:ParameterLanguage>
+      </rep:SetExecutionParameters>
+   </soapenv:Body>
+</soapenv:Envelope>
+ERROR:root:Could not Send Parameters: The value provided for the report parameter 'ENDDATE' is not valid for its type. ---> Microsoft.ReportingServices.Diagnostics.Utilities.ReportParameterTypeMismatchException: The value provided for the report parameter 'ENDDATE' is not valid for its type.
+ERROR:suds.client:<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices">
+   <soapenv:Header>
+      <rep:ExecutionHeader>
+         <rep:ExecutionID>h2e0rya3qpmeap45q43ztr55</rep:ExecutionID>
+      </rep:ExecutionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <rep:SetExecutionParameters>
+         <rep:Parameters>
+            <rep:ParameterValue>
+               <rep:Name>FACILITY</rep:Name>
+               <rep:Value>101</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>STARTDATE</rep:Name>
+               <rep:Value>01/01/2021</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>ENDDATE</rep:Name>
+               <rep:Value>31/01/2021</rep:Value>
+            </rep:ParameterValue>
+         </rep:Parameters>
+         <rep:ParameterLanguage>en-US</rep:ParameterLanguage>
+      </rep:SetExecutionParameters>
+   </soapenv:Body>
+</soapenv:Envelope>
+ERROR:root:Could not Send Parameters: The value provided for the report parameter 'ENDDATE' is not valid for its type. ---> Microsoft.ReportingServices.Diagnostics.Utilities.ReportParameterTypeMismatchException: The value provided for the report parameter 'ENDDATE' is not valid for its type.
+ERROR:suds.client:<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rep="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices">
+   <soapenv:Header>
+      <rep:ExecutionHeader>
+         <rep:ExecutionID>sgev5wud4r0fgl55gflhsjqx</rep:ExecutionID>
+      </rep:ExecutionHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <rep:SetExecutionParameters>
+         <rep:Parameters>
+            <rep:ParameterValue>
+               <rep:Name>FACILITY</rep:Name>
+               <rep:Value>101</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>STARTDATE</rep:Name>
+               <rep:Value>01/01/2021</rep:Value>
+            </rep:ParameterValue>
+            <rep:ParameterValue>
+               <rep:Name>ENDDATE</rep:Name>
+               <rep:Value>31/01/2021</rep:Value>
+            </rep:ParameterValue>
+         </rep:Parameters>
+         <rep:ParameterLanguage>en-US</rep:ParameterLanguage>
+      </rep:SetExecutionParameters>
+   </soapenv:Body>
+</soapenv:Envelope>
+ERROR:root:Could not Send Parameters: The value provided for the report parameter 'ENDDATE' is not valid for its type. ---> Microsoft.ReportingServices.Diagnostics.Utilities.ReportParameterTypeMismatchException: The value provided for the report parameter 'ENDDATE' is not valid for its type.
+ERROR:root:Format is not valid: Excel
+ERROR:root:Format is not valid: Excel
+ERROR:root:Format is not valid: Excel
+ERROR:root:Format is not valid: XLSX
+ERROR:root:Format is not valid: XLS
